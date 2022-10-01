@@ -2,7 +2,7 @@ FROM python:3.10.4-bullseye
 
 ENV PYTHONUNBUFFERED=1
 
-WORKDIR /app/
+WORKDIR /app
 
 RUN /usr/local/bin/python -m pip install --upgrade pip
 
